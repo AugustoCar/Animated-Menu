@@ -5,8 +5,9 @@
     transition: all 0.4s ease-in-out;
 }
 
-body{
-    background: url(streetfighter.png);
+img{
+    max-width:100%;
+    height:auto;
 }
 
 nav{
@@ -23,7 +24,7 @@ nav ul{
     background-color: #BD2920;
     padding: 240px 0px;
     height: 100vh;
-    clip-path: circle(10% at 10% 5%);
+    clip-path: circle(10% at 10% 2%);
 }
 
 nav ul:hover{
