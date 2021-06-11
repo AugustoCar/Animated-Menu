@@ -26,16 +26,17 @@ nav ul{
     clip-path: circle(10% at 10% 5%);
 }
 
-nav ul:active{
-    clip-path: circle(100% at -75% 10%);
+nav ul:hover{
+    clip-path: circle(100% at -95% 10%);
 }
 
 nav ul .menu{
     width: 48px;
     height: 40px;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     margin-top: -220px;
+    margin-left: 24px;
 }
 
 nav ul .menu span{
